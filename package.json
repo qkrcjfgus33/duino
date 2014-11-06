@@ -1,35 +1,12 @@
 {
-  "author": {
-    "name": "Cam Pedersen",
-    "email": "diffference@gmail.com",
-    "url": "http://campedersen.com/"
-  },
+  "author": "Cam Pedersen <diffference@gmail.com> (http://campedersen.com/)",
   "contributors": [
-    {
-      "name": "Rick Waldron",
-      "email": "waldron.rick@gmail.com"
-    },
-    {
-      "name": "Leonhardt Wille",
-      "email": "wille@riverlabs.de"
-    },
-    {
-      "name": "Seiya Konno",
-      "email": "nulltask@gmail.com"
-    },
-    {
-      "name": "Nathan Vander Wilt",
-      "email": "nate@calftrail.com"
-    },
-    {
-      "name": "Adam Brault",
-      "email": "contact@andyet.com",
-      "url": "&yet"
-    },
-    {
-      "name": "Emanuele Tessore",
-      "email": "setola@gmail.com"
-    }
+    { "name": "Rick Waldron", "email": "waldron.rick@gmail.com" },
+    { "name": "Leonhardt Wille", "email": "wille@riverlabs.de" },
+    { "name": "Seiya Konno", "email": "nulltask@gmail.com" },
+    { "name": "Nathan Vander Wilt", "email": "nate@calftrail.com" },
+    { "name": "Adam Brault (&yet)", "email": "contact@andyet.com" },
+    { "name": "Emanuele Tessore", "email": "setola@gmail.com" }
   ],
   "name": "duino",
   "description": "Arduino framework for mad scientists",
@@ -39,6 +16,10 @@
     "serial",
     "framework"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qkrcjfgus33/duino.git"
+  },
   "main": "index.js",
   "engines": {
     "node": "*"
